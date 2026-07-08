@@ -264,12 +264,13 @@ nav ul li a:hover{
 
 /* Projects */
 
-.projects{
+.project{
     min-height:100vh;
-    padding:120px 20px 60px;
+    padding:80px 20px 60px;
+    
 }
 
-.projects h1{
+.project h1{
     text-align:center;
     color:#FFD700;
     font-size:50px;
@@ -296,7 +297,11 @@ nav ul li a:hover{
     color:#FFD700;
     margin-bottom:20px;
 }
-
+.project-content span{
+     color:#d6d6d6;
+    line-height:1.8;
+    margin-bottom:20px;
+}
 .project-content p{
     color:#d6d6d6;
     line-height:1.8;
