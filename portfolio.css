@@ -335,24 +335,27 @@ nav ul li a:hover{
     margin-right:15px;
     margin-top:10px;
 }
-.project-btns{
-    margin-top:20px;
+.project-tech{
     display:flex;
-    gap:15px;
+    flex-wrap:wrap;
+    gap:10px;
+    margin:20px 0;
 }
 
-.project-btns a{
-    text-decoration:none;
+.project-tech span{
+    background:#e8f4ff;
+    color:#0077b6;
+    padding:8px 14px;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:600;
+    border:1px solid #0077b6;
+    transition:0.3s ease;
+}
+
+.project-tech span:hover{
     background:#0077b6;
     color:#fff;
-    padding:10px 18px;
-    border-radius:6px;
-    transition:0.3s;
-    font-weight:600;
-}
-
-.project-btns a:hover{
-    background:#005f8f;
 }
 @media(max-width:768px){
 
